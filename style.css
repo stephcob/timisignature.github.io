@@ -1,0 +1,98 @@
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(230, 229, 229);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin: 0px;
+    font-weight: 400;
+}
+
+h2{
+    margin: 0px;
+    font-weight:400;
+    display: inline;
+}
+
+.box{
+    background-color: white;
+    width:50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header-left{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 4rem;
+    margin: 50px 0px;
+    
+}
+
+.first-name{
+    font-weight: 600;
+    margin: 0;
+}
+
+.last-name{
+    
+    font-weight: 200;
+    margin: 0;
+}
+
+.header-right{
+    width: 100%;
+   display: grid;
+   justify-items: end;
+   margin: 50px 0px
+}
+
+.header-right p{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon{
+ color:rgb(230, 229, 229);
+ font-size: 1rem;
+ margin-right: 0.9rem;
+ padding: 2px;
+}
+
+.head {
+    border-radius: 0.3rem solid rgb(20, 19, 19);
+    background-color: rgb(31, 30, 30);
+    color: white;
+    padding-left: 0.5rem;
+}
+
+
+table{
+    border: 2px solid black;
+    padding: 0.3rem;
+    margin: 0.8rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+th, td{
+    border: 2px solid black;
+    padding: 0.2rem;
+    margin:0;
+}
